@@ -5,10 +5,10 @@ import _ from 'lodash';
 const config = {
   apiKey: null,
   apiSecret: null,
-  amount: 100,
+  amount: 200,
   amountCurrency: 'BRL',
   initialBuy: true,
-  minProfitPercent: 0.02,
+  minProfitPercent: 0.04,
   // specify null to let the bot calculate the minimum allowed interval
   intervalSeconds: null,
   playSound: false,
