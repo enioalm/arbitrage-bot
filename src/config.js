@@ -3,13 +3,15 @@ import _ from 'lodash';
 
 
 const config = {
-  apiKey: null,
-  apiSecret: null,
-  amount: 200,
+  apiKey: '104c35de12c46f97124449fd5cd89fc023bcab55d119fda78c76877da05e7f8d',
+  apiSecret: 'ec8f89d44b21856f879f877916905c808fadc081b7221995f0611e7388dd6788',
+  amount: 500,
   amountCurrency: 'BRL',
+  amountBtc: 0.00100000,
+  amountCripto: 'BTC',
   initialBuy: true,
-  minProfitPercent: 0.04,
-  // specify null to let the bot calculate the minimum allowed interval
+  minProfitPercent: 0.02,
+  // especifique null para permitir que o bot calcule o intervalo mínimo permitido
   intervalSeconds: null,
   playSound: false,
   simulation: false,
@@ -21,7 +23,7 @@ try {
     `./config.json`,
   )));
 } catch (err) {
-  console.log('[INFO] Could not read config.json file.', err);
+  console.log('[INFO] Não foi possível ler o arquivo config.json.', err);
 }
 
 export default config;
