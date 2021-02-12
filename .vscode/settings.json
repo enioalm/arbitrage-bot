@@ -1,8 +1,0 @@
-{
-    "appService.zipIgnorePattern": [
-        "node_modules{,/**}",
-        ".vscode{,/**}"
-    ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/4e0a27c1-369c-4265-9381-3442ebda3a46/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/ArbitragemBoot",
-    "appService.deploySubpath": "."
-}
